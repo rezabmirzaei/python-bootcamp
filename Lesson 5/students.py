@@ -4,7 +4,7 @@
 # docstring
 """students.py - Manage list of students in class"""
 
-# import statements
+# import-statements
 # import classes
 
 # authorship info, copyrights, licences etc.
