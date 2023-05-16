@@ -1,9 +1,9 @@
 import argparse
 
-def addition(x,y):
+def addition(x, y):
     return x + y
 
-def subtraction(x,y):
+def subtraction(x, y):
     return x - y
 
 
@@ -12,11 +12,11 @@ def subtraction(x,y):
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
-    parser.add_argument("x", type=int)
-    parser.add_argument("y", type=int)
+    parser.add_argument("x", type=float)
+    parser.add_argument("y", type=float)
     
     # Optional argument with (bool with default False if not provided)
-    parser.add_argument("-s","--subtract", action="store_true")
+    parser.add_argument("-s", "--subtract", action="store_true") # Flip logic using "store_false"; will default to true 
     
     args = parser.parse_args()
     

@@ -1,5 +1,6 @@
 import argparse
 
+# 'parser' manages the attributes; allows us to define attributes and reads/assignes/converts etc as defined
 parser = argparse.ArgumentParser()
 
 # Add expected arguments
