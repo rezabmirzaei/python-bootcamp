@@ -7,6 +7,9 @@ flights = ["BA","AL","EM","QA","TH","RR"]
 fpaths = [789,854,110,215,984,874,115]
 cities = ["Oslo","London","Cape Town","Dubai","Seattle","Tokyo","Paris"]
 
+# if __name__ == '__main__' indicates the entry point to the program when run directly by the Python interpreter.
+## OR as a standalone executable.
+# The code inside the if statement is not executed when the file's code is imported as a module.
 if __name__ == "__main__":
     filename = input("Name the output file? ")
     number_of_items = int(input("How many flights must be generated? "))
