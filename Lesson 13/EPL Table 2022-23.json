@@ -1,0 +1,17 @@
+{
+    "Team":{
+        "1":"Manchester City",
+        "2":"Arsenal",
+        "3":"Manchester United"
+    },
+    "Goal diff.":{
+        "1":45,
+        "2":28,
+        "3":34
+    },
+    "Points":{
+        "1":89,
+        "2":84,
+        "3":75
+    }
+}
